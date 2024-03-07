@@ -1,0 +1,89 @@
+
+/* hover classes  */
+.columnHover:hover  .scaleUp {
+
+    transform:scale(1.02);         
+ 
+  }
+
+  .Submita:hover  .change {
+
+    background-color:white!important;
+    color:darkorange!important;
+ 
+  }
+
+
+  .hoverText:hover  .orangeText {
+
+    
+    color:darkorange!important;
+ 
+  }
+
+  .DisplayBlock:hover  .DisplayBlock1 {
+
+    
+    background-color:red;!important;
+ 
+  }
+
+.hide {
+  display: none!important;
+}
+
+.show:hover .hide {
+  display: block!important;
+}
+/* hover classes end here   */
+
+
+/* general classes start here  */
+  .orangeTextNoHover {
+
+    
+    color:darkorange!important;
+ 
+  }
+
+
+/* general classes end here  */
+
+  @media only screen and (min-width: 1000px) {
+   
+    @keyframes GridAnimationDesktop  {
+    0%  { transform: translatex(-100%) }
+  
+  
+    100% { transform: translatex(-0%) }
+  }
+  
+}
+  @media only screen and (max-width: 600px) {
+    
+    
+    .w-xs-100  {  
+      width: 100%!important;
+    }
+
+
+    @keyframes GridAnimationMobileRightMobile {
+        0%  { transform: translatex(-100%) }
+  
+  
+        100% { transform: translatex(-0%) }
+    }
+      
+    @keyframes GridAnimationMobileLeftMobile {
+        0%  { transform: translatex(100%) }
+  
+  
+        100% { transform: translatex(-0%) }
+    }
+
+  }
+
+
+
+ 
+  
